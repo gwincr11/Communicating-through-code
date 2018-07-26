@@ -1,0 +1,44 @@
+Why I want to do this talk:
+We write a lot of code in a lot of different ways, functional, object oriented, sqlness. But what are we actually trying to capture? Is coding a form of communication or is it just providing instructions to a machine? If it is the former, do we not owe it to ourselves to think about the prior as we have to interact with the code as it matures?
+
+Code serves the purpose of bridging the gap between hardware and human need. Increasingly we are moving towards machines that not only bridge this gap but mimic human behavior. As all human creations tend to mimic nature the question arises, what is a computer mimicking. Furthermore as developer how can we bring the computer closer to the natural order?
+
+We develop increasingly complex interfaces to computers to make ourselves feel more immersed in the interface, in fact we have an entire field, HCI, devoted to studying this. Pulling from the idea proposed by Steve Jobs that the compute is the bicycle of the mind, I propose that the environment of the computer is human thought.
+
+In seeking a more organic fit of the computer with the human mind it is important to consider the language in which we communicate with the machine. Programming is the the translation of human thought to computer thought, often involving understanding deeply a human task and putting it into terms a machine can understand.
+
+Programming for programmers is a natural habitat. As a community we deeply understand and celebrate solving each others problems as well as deeply criticize things that don't fit inside our own perspective of that environment. This does not as naturally occur to us in other domains since it is not a habitat in which we exist. Our primary goal as developers should be to better inhabit the environments which we hope to alter as to be a good citizen. We often refer to this as dog fooding although we don't often consider it when working on domains that we do not inhabit frequently. We have been able to realize much higher states of communication based abstraction ala, DSL’s in fields we deeply understand such as RSPEC for testing, but have struggled to bring this level of communication and understanding to fields outside of our own.
+
+In order to solve more of the worlds pressing problems we need to consider the machine our Allie in thinking about problems. This means developing skills to better encapsulate broader issues into language that can be understood between the computer and the problem domain.
+
+Being a developer is actually about developing a language to describe a problem in an intermediary language that is understood by the computer, the developer and ideally the problem advocate.
+
+Traditional computer science fails to grasp the important of the development of language when solving problems that transcend human to machine. The process of going from problem, realization, concept to implementation expands beyond pure engineering into art and metaphysics.
+
+Truly programming languages are an abstraction level far above mathematics. One of the pursuits of mathematics is the pursuit of defining the universe in definable means. Given that programming is a abstraction of mathematics, do we not inherit this pursuit?
+
+Are we trying to teach computers to understand our language, or to meet in the middle, either way we are a long way off.
+
+Objects, structs, data structures what are you represent nouns while functions represent verbs on said nouns. As we define our language we should consider how we model the work being done in the real world to these structures.
+
+One of the hardest things about learning math is the esoteric naming schemes. As we inherit from such a difficult history we owe it to ourselves to improve upon this complexity. Programming allows us to define things in a language that represents something humans can understand.
+
+Putting ourselves into our users shoes as a way to better empathize and communicate about an issue.
+
+Noise Noise Noise, The noise of languages and the complexity that removes understanding.
+
+The noise of performance optimizations. Dealing with it.
+
+Human communication and the ideas of structure, definition and meaning and how it related to functional and object oriented programming. What is state in the real world, how does functional programming ideas deal with sentence and math structure.
+
+The code review and what it tells us. Should we be able to do code reviews with non-technical people? The DSL, cucumber and its idea.
+
+The importance of pushing ideas down the stack, abstractions.
+
+The importance of understanding the task you are automating, why programmers fail to capture user needs, the loss of context with churn or changing projects, how to handle increasing understanding before a project, why requirements documents fail.
+
+How AI fits into this discussion
+
+Code that writes code, data that writes code
+
+Defining Organic Programming
