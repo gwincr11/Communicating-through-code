@@ -108,8 +108,25 @@ In this process we want to keep an ear out for Nouns, verbs, processes or phrase
 
 Identify these terms as you interview and try to capture the words, context they are used in and look for clarification when needed.
 
-# Process Flow
-Often times when interviewing people will outline a process to you. 
+- Nouns often map to object or Database entities
+- Can you map out any entity relationships?
+- Verbs often signify process, how do verbs relate to nouns? Can you capture this?
+- Can the verbs be mapped to function in the system?
+- Is there a process hierarchy, can you map verbs and nouns into this process? Is it signifying anything important about how you model the domain?
+- Is there any language ambiguity? Ask for clarification.
+- Can any of this be used in documentation in the codebase?
+- Did the interviewee presented a good test scenario?
+- Has the interviewee brought up any edge cases?
+- Are their verbs or nouns that we could use to help the user navigate any new tooling?
+- Is the user presenting any sort of logical hierarchy to processes or entities we should reflect in the tools UI structure? Can these also be captured in code?
+
+When capturing this information it is safe to use all kinds of diagrams, words, trees, tables whatever captures the idea well. 
+
+
+
+# A Note on Process Flow
+Often times when interviewing people will outline a process to you.
+ 
 1. Found my keys
 2. Got in the car
 3. Drove to the store
@@ -117,6 +134,10 @@ Often times when interviewing people will outline a process to you.
 5. drove home
 
 This is highly generic but hopefully you get the idea. Often when automating manual tasks or augmented common procedures users have a prefered way to complete the task. Understanding their existing workflow can help you better understand a process and how to describe it in code and augment it with tooling.
+
+It is also a good idea to look for goods and bads in the current process, capturing a process is only as useful as the process is good. If we capture a process the user distastes or that has holes in it we maybe automating a bad process. 
+
+This differentation is a tricky line to follow. Often stakeholders are keen to keep nomenclature, process and tools familiar. However, they may also have a distaste for the current. Keeping nomenclature the same while changing process may allow for an easy transition allowing the user to maintain language but changing order for example limits the amount of change being introduced.
 
 # Go interview
 Assign one person to be the interviewer, one person to be a note taker and one person to capture language and processes.
