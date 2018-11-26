@@ -177,14 +177,81 @@ I find these two steps to be incredibly useful in a number of situations. Try fo
 
 # Statement Starters
 
+Now you have a good amount of info, lets frame our problem. We want to use open language that encourages brain storming
+- How might we ____
+- In what ways might we _____
+- How to _____
+
+Compare the statements "How might we" and "How can we", how do they make you feel?
 
 
 # Ideation
+Ideation is the phase in which we come up with possible things to prototype. Lets vote on a few statements for everyone to work on. Put your statement starter on the board and cast a vote for what things we will prototype.
+
+- Switch up teams.
+
+## Creative matrix
+If you want to generate many wide-ranging ideas in a short amount of time, the structure of a Creative Matrix is useful because it stimulates cross-pollination by providing a template for generating new ideas where topics intersect. In a Creative Matrix grid, each cell represents the intersection of two disparate categories. It’s best to use the columns as categories related to people (e.g., personas, market segments, or problem statements) and the rows as categories for enabling solutions (e.g., technologies, environments, or policies). You can then use this “mash-up” of categories to help generate a wide range of concepts in each cell.
+
+- Make a poster showing a large grid (max. 5 x 5 cells).
+- Designate columns: Categories related to people.
+- Designate rows: Categories for enabling solutions.
+- Form teams. Hand out grids. Introduce the topic.
+- Give each participant a pen and a sticky note pad.
+- Ask them to ideate at the intersections of the grid.
+- Instruct them to write one idea per sticky note.
+- Start the clock. Limit the time to 15-20 minutes.
+
+
+## Important/Difficulty mapping
+Now we have some ideas, let figure out which option to work on. 
+
+- Make a poster showing a large quad chart.
+- Label horizontal axis Importance (or Impact).
+- Label vertical axis Difficulty (or Cost to Execute).
+- Form a team, and gather data for discussion.
+- Plot items horizontally by relative importance.
+- Plot items vertically by relative difficulty.
+- Consider the quadrants where items get placed.
+- Look for related groupings, and set priorities.
+
+
+Switch up the teams, and select prototypes.
 
 # Prototyping
+
+Now it is time to prototype solutions, with your team vote on a possible solution to prototype and build a low fidelity model of your solution. 
+
+What is the lowest cost possible thing you can build to show your idea off? How can you test UI flows and other parts of your solution?
+
+
+- Assemble a small design team.
+- Gather basic materials (e.g., pen, paper, tape, etc).
+- Consider what you want to learn from the prototype.
+- Select a scenario and a few key tasks to focus on.
+- Build a rough approximation of the concept.
+- Simulate as much functionality as possible.
+- Include some realistic and readable content.
+- Provide a signal for the areas that are incomplete.
+
+One person for each team will volunteer to test another teams prototype. Then we will iterate and re-test. Run a basic UI test, discussing with the user what they are doing as they use your prototype. Have them talk through their thought process as they use the prototype. Avoid leading the user with language, setup a scenario and see what they do and why.
  
 # Presentations
+Everyone shows off their prototypes and talks a little about what they learned in the process.
 
-# Implementation challenges
+# Next steps?
+
+- D.School Bootleg for your team https://dschool.stanford.edu/resources/design-thinking-bootleg
+- Luma Institute training. https://www.luma-institute.com/
+- Luma Workplace https://www.luma-institute.com/products-and-services/luma-workplace/
+- Books
+	- Design Sprint
+	- The Design Thinking Playbook
+
 
 # Wrap up
+Circle time.
+
+- What did you learn today?
+- What do you want to do differently after this?
+- What was the most surprising thing about this excercise?
