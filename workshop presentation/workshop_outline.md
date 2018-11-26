@@ -58,7 +58,7 @@ We are all attending CodeMash so lets explore the space of hosting and running t
 # Learn
 We will start the day at the begining of our first diamond in the learning or discover phase. We will be interviewing CodeMash volunteers to discuss their work at the conference. 
 
-# How to interview
+## How to interview
 
 - What does interviewing mean to you?
 - Have someone tell about an interview.
@@ -178,6 +178,7 @@ I find these two steps to be incredibly useful in a number of situations. Try fo
 # Statement Starters
 
 Now you have a good amount of info, lets frame our problem. We want to use open language that encourages brain storming
+
 - How might we ____
 - In what ways might we _____
 - How to _____
