@@ -1,11 +1,11 @@
-# Intro
+# On the table excercise
 Everyone meets the people at their table, exchange 
 
 - Your name
 - Why you are here
 - Where you work
 
-# Motivation
+# Motivation 5 min
 I put this workshop together to try to introduce more developers to design thinking processes. It has been my experience while implementing these techniques in multiple teams, including with my team at GitHub, that the ideas, methodologies and approaches presenting in design thinking help developers to:
 
 - Better understand the domain they are developing solutions within.
@@ -20,7 +20,7 @@ Design Management Institute’s ten year study that shows design-centric compani
 
 > "Good design is good business", Tom Watson IBM
 
-# What is design thinking?
+# What is design thinking? 5 min
 Design thinking is often summed up in steps that allow you to Learn, Understand, Ideate, Prototype and validate solutions. Different approachs or schools of thought will have slightly different terminology for this process but generally people dip their toe in the water by learning a process similar to what we will go through today. 
 
 Todays example will emphasis some aspects that I have found helpful from a programmers perspective that are typically not discussed in these sorts of workshops mainly around shared language and capturing the domain of the user in language and process.
@@ -43,16 +43,14 @@ It is important to see that design thinking on it's own is not a useful tool, it
 https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812
 - “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” - Einstein
 
-# Warm up excercise
-- Draw a vase
-- Draw a flower experience
-- Combine your experience with your neighbors
-- Show your results
-- Reflect
+# What is Domain Driven Design?
+Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model.[1] The premise of domain-driven design is the following:
 
-Today is going to be very messy, that is good. Don't be afraid of the fact that you are creating terrible drawing and lots of mess. Creativety tends to thrive in messy environments.
+- placing the project's primary focus on the core domain and domain logic;
+- basing complex designs on a model of the domain;
+- initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.
 
-# Problem introduction
+# Problem introduction 2 min
 We are all attending CodeMash so lets explore the space of hosting and running this large conference. We will avoid selecting a particular problem to work on and instead leave that as an excercise of prioritization in the groups. 
 
 # Learn
@@ -144,6 +142,12 @@ Assign one person to be the interviewer, one person to be a note taker and one p
 
 Try to capture as much information from the interview as you can. Each idea can be captured on a post it note to keep note small and concise. It is good to draw, write, sketch and journal. Use the method that helps you most effectively capture your ideas.
 
+# Ubiqutious Language and Context Bounding
+
+Often times language has meaning or process has meaning inside a context in particular parts of an organization. For example consumer facing sales may have a different idea of what an account is and what it can do then b2b sales. Another example of bounded context could be that accounting cares about payments in a different way then sales, one dealing with taxes the other commssions.
+
+This is bounded context. Using tools to isolate and differentiate these bounded contexts can help prevent god objects and clarify duplicate language with different meaning.
+
 # Rose Bud Thorn
 Members of the Boy Scouts of America frequently use this method to identify one positive experience (Rose), one negative experience (Thorn), and one new goal or insight (Bud). We can employ this method to utilize this method to help focus a set of data and plan next steps.
 
@@ -171,10 +175,13 @@ Affinity clustering is a great tool for finding order in a large set of data poi
 - Consider using color to code different types of data.
 - Avoid the urge to offer solutions at this point. Write them down and keep them in your pocket.
 
+
 ## A note on Rose Bud Thorn and Affinity clustering
 
 I find these two steps to be incredibly useful in a number of situations. Try folding them into processes you may already have in place and time box them to 30 minutes each. A couple places you may find them incredibly useful are agile retrospectives and incident response meetings.
 
+
+-- CUT?
 # Statement Starters
 
 Now you have a good amount of info, lets frame our problem. We want to use open language that encourages brain storming
@@ -189,7 +196,6 @@ Compare the statements "How might we" and "How can we", how do they make you fee
 # Ideation
 Ideation is the phase in which we come up with possible things to prototype. Lets vote on a few statements for everyone to work on. Put your statement starter on the board and cast a vote for what things we will prototype.
 
-- Switch up teams.
 
 ## Creative matrix
 If you want to generate many wide-ranging ideas in a short amount of time, the structure of a Creative Matrix is useful because it stimulates cross-pollination by providing a template for generating new ideas where topics intersect. In a Creative Matrix grid, each cell represents the intersection of two disparate categories. It’s best to use the columns as categories related to people (e.g., personas, market segments, or problem statements) and the rows as categories for enabling solutions (e.g., technologies, environments, or policies). You can then use this “mash-up” of categories to help generate a wide range of concepts in each cell.
