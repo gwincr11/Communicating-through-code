@@ -82,4 +82,6 @@ The implication here is that we do not know how to collaborate with our users in
 
 This book makes a case that in order to solve problems we need to move the solution architects closer to the domain space. I believe in order to replicate the success of the open source movement in a broader way, we need to find ways to bring domain experts together with solution architects to create a new way of interacting. If one is to believe "We are as gods and might as well get good at it" then we need to focus on creating tools for others in a manner we ourselves would accept.
 
+It then sets forward a set of tools to help developers take action on this premise equipping them to discuss complex problems with their user base in new and collaborative ways.
+
  
