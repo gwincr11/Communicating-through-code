@@ -52,7 +52,11 @@ The second method introduced is Rose Bud Thorn this tool helps categorize findin
 
 
 ## Chapter 6: Creating our Ubiquitous Language Glossary
-We now have a collection of language and bounded context that will allow us to create a glossary. We will explore what a glossary is and how to create one from your findings. The book will also show some psuedo code examples of how this language and context bound idea can be implemented to lead to cleaner implementation and separation of concerns.
+We now have a collection of language and bounded context that will allow us to create a glossary. We will explore what a glossary is and how to create one from your findings. 
+
+The book will also show some pseudo code examples of how this language and context bound idea can be implemented to lead to cleaner implementation and separation of concerns. We will explore techniques for name-spacing code, organizing files, naming methods vs. objects and separating concerns.
+
+We will also explore how to keep these glossaries up to date and useful in your projects.
 
 ## Chapter 7: Defining a problem statement
 
@@ -64,10 +68,16 @@ We will utilize explore proper language for phrasing problem statements and why 
 
 ## Chapter 8: Ideation
 
+Now that we have a problem statement to work on we need to start thinking about how to approach our problem. Ideation is a process of generating as many ideas as possible. These techniques are useful in a number of scenarios where you need to generate potential solutions to a well understood problem.
+
+We will introduce a few exercises to help with the brainstorming process
+
 ## Chapter 9: Ranking competing ideas
 
 ## Chapter 10: Prototyping
 
 ## Chapter 11: Validating Prototypes
+
+## Chapter 12: Cooking with ingredients
 
 ## Chapter x: Going remote.x`
