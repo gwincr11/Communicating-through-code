@@ -70,14 +70,44 @@ We will utilize explore proper language for phrasing problem statements and why 
 
 Now that we have a problem statement to work on we need to start thinking about how to approach our problem. Ideation is a process of generating as many ideas as possible. These techniques are useful in a number of scenarios where you need to generate potential solutions to a well understood problem.
 
-We will introduce a few exercises to help with the brainstorming process
+We will introduce a few exercises to help with the brainstorming process. 
+
+First we will try redefining the opportunity by changing our statement starter by turning it into a question in the phrases of who, what, when, where, why and how. We will use each of these prompts to define as many answers as possible.
+
+Next we will look at creating a creative matrix, in this process we define 5 assets we have at our dispense to solve the problem and we align those with our domain areas to brainstorm how the statement starter could be solved, approached etc in different combinations of tools and subdomains.
 
 ## Chapter 9: Ranking competing ideas
 
+At this point we have created a number of competing solutions, deciding which one's to pursue is often politically charged. We need tools to remove the personal attachment we hold to ideas and look at them subjectively. We will look at three exercises for doing this work. These tools are exceptionally valuable for going through backlogs, ranking company alignment goals like OKRs or getting stakeholders to express their needs accurately.
+
+First we will look at importance difficulty mapping. In this exercise we create a x,y graph that shows the importance and difficulty of every item we came up with during ideation in a quadrant. This visualization shows us the low hanging fruit, high-importance difficult items, low importance low difficulty items and low important high difficulty items; assisting us in choosing what to work on.
+
+Buy a feature is a game in which each player is given a budget and can choose which features they would pay for. This show which features are most valuable to which stakeholders.
+
+Brackets are a fun way to have features compete against each other for votes. As you work through the bracket people voting are allowed to change what they are routing for so everyones voice is heard to completion.
+
 ## Chapter 10: Prototyping
 
-## Chapter 11: Validating Prototypes
+Now that we have the ranked ideas we wish to implement, it is time to validate our ideas and experiment with competing implementation details. 
+
+There are two types of prototyping that make sense for software developers that I have experienced. 
+
+The first is a user facing prototype that shows off a feature that they will be working with, this is an invaluable alignment tool for working with stakeholder.
+
+The second is a technology prototype, often when we set out to build a new feature, app, etc... much of our architecture decision is based on the strongest political position in the room or the most familiar tech. Technology prototypes allow us to break out of this and offer a space to experiment and validate different ideas. We will outline how to run a successful technical prototyping session.
+
+## Chapter 11: Validating and learning from Prototypes
+
+We prototype in order ensure we are choosing the right direction, but learning from prototypes is an art. We need to separate our preference and bias and see what the prototype is really telling us. We will look at user testing our stakeholder facing prototypes and how to iterate. 
+
+We will also look at tools for qualifying technical prototypes, setting criteria, validating new tech and outlining how to assess risk.
 
 ## Chapter 12: Cooking with ingredients
 
-## Chapter x: Going remote.x`
+Throughout this book we have followed a very defined line of discover, ideate, prototype and validate. This recipe is common in design thinking, however the dogma of this process is misleading. Much like a great chef starts by following a recipe, they soon learn to break the ingredients apart and use them appropriately in different scenarios. We can utilize any one of these different methods in a number of scenarios and add a dash of ideation here and a prototyping session there without following the entire process.
+
+In this chapter we will look at running better retros, aligning a backlog, blameless incident response, prototyping competing implementation details, and how to run partial or full design thinking process in short periods of time.
+
+## Chapter x: Going remote
+
+Many of the tools in this book are possible to do remotely as well. Let's take some of the common methods in this book and discuss how we can bring them to remote teams.:w
