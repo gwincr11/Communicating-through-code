@@ -108,6 +108,6 @@ Throughout this book we have followed a very defined line of discover, ideate, p
 
 In this chapter we will look at running better retros, aligning a backlog, blameless incident response, prototyping competing implementation details, and how to run partial or full design thinking process in short periods of time.
 
-## Chapter x: Going remote
+## Chapter 13: Going remote
 
 Many of the tools in this book are possible to do remotely as well. Let's take some of the common methods in this book and discuss how we can bring them to remote teams.:w
