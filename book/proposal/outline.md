@@ -1,22 +1,24 @@
 # Outline for Design Thinking for Developers
 
-## Chapter 1: What is Design Thinking
+## Chapter 1: Exploring the hard problems with Design Thinking and Domain Driven Development
 
-Solving hard problems is challenging, solving hard problems without first exposing yourself to the situation is impossible. But this is consistently how we approach software development. A product manager tries to understand a feature someone needs to solve their problem, they then condense this down into an issue that can fit into our software project management process of choice and hand it to a developer to implement.
+Solving hard problems is challenging, solving hard problems without first exposing yourself to the situation is impossible. But this is consistently how we approach software development. A product manager tries to understand a feature someone thinks they need, the product manager then condense this down into an issue that can fit into our software project management process of choice and a developer to implements.
 
 This leads to a series of problems with the solution, a lack of domain knowledge throughout the organization, mis-leading code, poor data structures, un-maintainable codebases, in-sufficient or incorrect solutions and more.
 
-We need a better toolset, I would never expect a doctor to attempt surgery on a patient without ever meeting the patient. Why do we accept this in our work? We lack a process, one interesting observation I have noticed is that software developers can create amazing solutions to software problems, this is because the domain is tightly coupled to the developers work. We intuitively understand how to write software for the problems we face every day because we are continuously exposed to them. The solution we build for other problems facing the world tend to not be as good. We need a process that exposes developers to the domains they are working in. This process needs to also improve upon out other processes that we have found to work well.
-
-Design thinking is just such a process, it breaks down the process of learning about a domain and a problem into a series of methods we can reproduce. It does so by augmenting our domain learning and decision processes, many of which we currently do but in an informal way. In its simplest form solving a problem is going through a series of steps to identify the issue, understand the problem, come up with a solution and implement the solution. In reality there are millions of factors involved along the way from identifying to solving and all of these steps impact the quality of the solution.
+We will explore the intersection of the fields of design thinking, agile and domain driven design as a better way to build products.
 
 In this first chapter we will take a look at what design thinking is, outline the commonly referred to process and pick apart whether it needs to be done in totality. 
 
-## Chapter 2: A brief intro to Domain Driven Design
+Design thinking process can offer an excellent way to engage domain experts in the creation of a product. Domain driven design offers a set of tools for taking these findings and creating software implementations that more concisely capture the knowledge we have learned.
 
-Design thinking process can offer an excellent way to engage domain experts in the creation of a product. This brief chapter will offer a overview of three domain driven design ideas, ubiquitous language, domain events and context bounding. 
+In this chapter we will introduce domain driven design ideas we will be covering in this book: 
 
-These tools are helpful to programmers working within any organization regardless of wether a full fledged domain language is being used or not. In this chapter I will outline the final products we hope to gain through the book including a glossary, context boundaries for primary and supporting domains, domain events and org personas.
+- Ubiquitous languages
+- Glossaries
+- Context boundaries for primary and supporting domains
+- Domain events 
+- Org personas
 
 ## Chapter 3: Discovery
 In this book we will be outlining the steps a development team is taking to implement a new warranty tool for a bike company. The first step to working on any problem is learning everything you can about the problem. This phase is often one that software developers are left out of. We will explore why this is and why it should not be the case. 
