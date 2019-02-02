@@ -1,10 +1,20 @@
 # Outline for Design Thinking for Developers
 
-## Chapter 1: Exploring the hard problems with Design Thinking and Domain Driven Development
+## Chapter 1: Organic Software with Design Thinking and Domain Driven Development
 
-Solving hard problems is challenging, solving hard problems without first exposing yourself to the situation is impossible. But this is consistently how we approach software development. A product manager tries to understand a feature someone thinks they need, the product manager then condense this down into an issue that can fit into our software project management process of choice and a developer to implements.
+Organic software is the modern ideal and a quality needed if we seek to perpetuate the success and social responsibility of open source to a wider set of problems. We seek to serve the whole of life, seeking solutions which effortlessly enhance our environments in a informed, thoughtful and responsible manner.
 
-This leads to a series of problems with the solution, a lack of domain knowledge throughout the organization, mis-leading code, poor data structures, un-maintainable codebases, in-sufficient or incorrect solutions and more.
+Organic software:
+
+- Seeks a natural progression of its environment.
+- Flows and changes effortlessly with its domain.
+- Satisfy social needs responsibly.
+- Focuses on the communicating consistently across the implementation and domain.
+- Seek empowering solutions over narrowly targeted solutions.
+
+Crafting organic software is challenging! Solving problems in a appropriate way without first exposing yourself to the situation is impossible! But this is consistently how we approach software development. A product manager tries to understand a feature someone thinks they need, the product manager then condense this down into an issue that can fit into our software project management process of choice and a developer to implements.
+
+This leads to a series of problems with the solution, a lack of domain knowledge throughout the organization, mis-leading code, poor data structures, un-maintainable codebases, in-sufficient or incorrect solutions and worse.
 
 We will explore the intersection of the fields of design thinking, agile and domain driven design as a better way to build products.
 
