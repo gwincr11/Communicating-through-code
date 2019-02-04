@@ -30,7 +30,7 @@ In this chapter we will introduce domain driven design ideas we will be covering
 - Domain events 
 - Org personas
 
-## Chapter 3: Discovery
+## Chapter 2: Discovery
 In this book we will be outlining the steps a development team is taking to implement a new warranty tool for a bike company. The first step to working on any problem is learning everything you can about the problem. This phase is often one that software developers are left out of. We will explore why this is and why it should not be the case. 
 
 The first exercise introduced is a Stake Holder Mapping. This is a method for identifying potential domain experts to consult regarding the current process in place for warranty issues. The StakeHolder mapping also serves as a nice first pass at a bounded context diagram.
@@ -39,7 +39,7 @@ Next we will introduce how to develop buy in from domain experts and bring them 
 
 The final method introduced in this chapter is Experience Diagraming. This is a method for exploring the current process and visualizing it. Each of our identified stakeholders will be utilized to help outline all the steps a warranty takes from creation to completion from their perspective. This lifecycle exploration helps us to see potential areas of improvement. It also provides a collection point to work on our context boundaries and ubiquitous language.
 
-## Chapter 4: Interviewing and Job Shadowing
+## Chapter 3: Interviewing and Job Shadowing
 
 Now that we have identified all the stakeholders and processes we will be impacting, we can develop a picture of day to day operations. Job shadowing and interviewing are two valuable tools for exploring how the user does the task you are looking to augment everyday. 
 
@@ -54,7 +54,7 @@ In this chapter we will outline how to conduct a successful interview and how to
 - Identifying domain events.
 - Looking for hacks and other contextual clues. 
 
-## Chapter 5: Gaining Context
+## Chapter 4: Gaining Context
 
 In this chapter we introduce two methods for contextualizing information we gained in the prior exercises affinity clustering and rose bud thorn. 
 
@@ -63,14 +63,14 @@ Affinity clustering is a method which helps to sort our notes into contextually 
 The second method introduced is Rose Bud Thorn this tool helps categorize findings into positive (Rose), negative (Thorn) and items with potential for improvement (Bud). We will then use this as a way to discuss identifying potential areas for improvement.
 
 
-## Chapter 6: Creating our Ubiquitous Language Glossary
+## Chapter 5: Creating our Ubiquitous Language Glossary
 We now have a collection of language and bounded context that will allow us to create a glossary. We will explore what a glossary is and how to create one from your findings. 
 
 The book will also show some pseudo code examples of how this language and context bound idea can be implemented to lead to cleaner implementation and separation of concerns. We will explore techniques for name-spacing code, organizing files, naming methods vs. objects and separating concerns.
 
 We will also explore how to keep these glossaries up to date and useful in your projects.
 
-## Chapter 7: Defining a problem statement
+## Chapter 6: Defining a problem statement
 
 Often times our problem statement is handed to us due to business needs, however the process by which we choose the problem to work on and state the problem are often difficult tasks that can be aided by process. There are also situations in which we maybe using design thinking to explore a new process inside our development processes.
 
@@ -78,7 +78,7 @@ Defining a problem statement can be political and difficult to word. Our Rose, B
 
 We will utilize explore proper language for phrasing problem statements and why language matters. Once we have a identified problem statements we will look at two methods of choosing the problem to work on, bracketing and star voting.
 
-## Chapter 8: Ideation
+## Chapter 7: Ideation
 
 Now that we have a problem statement to work on we need to start thinking about how to approach our problem. Ideation is a process of generating as many ideas as possible. These techniques are useful in a number of scenarios where you need to generate potential solutions to a well understood problem.
 
@@ -88,7 +88,7 @@ First we will try redefining the opportunity by changing our statement starter b
 
 Next we will look at creating a creative matrix, in this process we define 5 assets we have at our dispense to solve the problem and we align those with our domain areas to brainstorm how the statement starter could be solved, approached etc in different combinations of tools and subdomains.
 
-## Chapter 9: Ranking competing ideas
+## Chapter 8: Ranking competing ideas
 
 At this point we have created a number of competing solutions, deciding which one's to pursue is often politically charged. We need tools to remove the personal attachment we hold to ideas and look at them subjectively. We will look at three exercises for doing this work. These tools are exceptionally valuable for going through backlogs, ranking company alignment goals like OKRs or getting stakeholders to express their needs accurately.
 
@@ -98,7 +98,7 @@ Buy a feature is a game in which each player is given a budget and can choose wh
 
 Brackets are a fun way to have features compete against each other for votes. As you work through the bracket people voting are allowed to change what they are routing for so everyones voice is heard to completion.
 
-## Chapter 10: Prototyping
+## Chapter 9: Prototyping
 
 Now that we have the ranked ideas we wish to implement, it is time to validate our ideas and experiment with competing implementation details. 
 
@@ -108,18 +108,18 @@ The first is a user facing prototype that shows off a feature that they will be 
 
 The second is a technology prototype, often when we set out to build a new feature, app, etc... much of our architecture decision is based on the strongest political position in the room or the most familiar tech. Technology prototypes allow us to break out of this and offer a space to experiment and validate different ideas. We will outline how to run a successful technical prototyping session.
 
-## Chapter 11: Validating and learning from Prototypes
+## Chapter 10: Validating and learning from Prototypes
 
 We prototype in order ensure we are choosing the right direction, but learning from prototypes is an art. We need to separate our preference and bias and see what the prototype is really telling us. We will look at user testing our stakeholder facing prototypes and how to iterate. 
 
 We will also look at tools for qualifying technical prototypes, setting criteria, validating new tech and outlining how to assess risk.
 
-## Chapter 12: Cooking with ingredients
+## Chapter 11: Cooking with ingredients
 
 Throughout this book we have followed a very defined line of discover, ideate, prototype and validate. This recipe is common in design thinking, however the dogma of this process is misleading. Much like a great chef starts by following a recipe, they soon learn to break the ingredients apart and use them appropriately in different scenarios. We can utilize any one of these different methods in a number of scenarios and add a dash of ideation here and a prototyping session there without following the entire process.
 
 In this chapter we will look at running better retros, aligning a backlog, blameless incident response, prototyping competing implementation details, and how to run partial or full design thinking process in short periods of time.
 
-## Chapter 13: Going remote
+## Chapter 12: Going remote
 
 Many of the tools in this book are possible to do remotely as well. Let's take some of the common methods in this book and discuss how we can bring them to remote teams.:w
