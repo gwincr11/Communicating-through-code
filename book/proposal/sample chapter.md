@@ -114,14 +114,6 @@ It is always tempting to ask a question that the interviewee can answer yes or n
 
 Instead of do you test you code, consider how do you test your code? Another example could be have you used x feature, instead ask what has been your experience with x feature? These re-phrases encourage more information exchange that you can act upon.
 
-## Capturing language, process and events
-
-Domain driven design offers a number of great ideas about using the language, entities, workflows and events of the domain in our code. In the interviewing and job shadowing methods a number of these items should have became evident. 
-
-Often times we think we need to define the domain language, however the domain language is currently being spoken everyday. Our job is rather to extract, contextualize and define it in such a way that it is easy to reference and share.
-
-As we interview domain experts we have an opportune time to work on extracting their language and better understand it. When conducting an interview I recommend having the note taker write down any specific vocabulary that is discussed. Note any terms that are vague or overloaded and ask the interviewee to explain what they mean when they say x. Capture each of these terms so can later add them to our context boundaries and define them in the glossary.
-
 ## Job shadowing
 
 Job shadowing is a tool to reach for when we are working on a very well defined process that we are looking to augment or change. I have approached this in two distinct ways with success. The first is silent observation, the second is engaging directly with the task and discussing it with the domain expert.
@@ -134,6 +126,15 @@ In either of these approaches you need to take extensive notes on workflows, con
 
 ### Look for the hacks
 One thing to pay particular attention to are the hacks around the workspace. Sticky notes of keyboard shortcut, codes or steps are a good hint that a process is hard or confusing. Taking documents into and out of multiple programs can show formatting errors. I have even seen upc hacking to fix problems with upc numbers between factories. These are often low hanging fruit with a large impact.
+
+
+## Capturing language, process and events
+
+Domain driven design offers a number of great ideas about using the language, entities, workflows and events of the domain in our code. In the interviewing and job shadowing methods a number of these items should have became evident. 
+
+Often times we think we need to define the domain language, however the domain language is currently being spoken everyday. Our job is rather to extract, contextualize and define it in such a way that it is easy to reference and share.
+
+As we interview domain experts we have an opportune time to work on extracting their language and better understand it. When conducting an interview I recommend having the note taker write down any specific vocabulary that is discussed. Note any terms that are vague or overloaded and ask the interviewee to explain what they mean when they say x. Capture each of these terms so can later add them to our context boundaries and define them in the glossary.
 
 ### Capturing processes
 There are a lot of ways to capture processes as you work through the job. Workflow process diagrams can show how different entities flow through the system and can capture language used to describe each step. We can also capture domain events that occur between each step of the workflow.
