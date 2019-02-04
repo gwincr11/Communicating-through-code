@@ -62,9 +62,23 @@ Now the fun part, the interview. I like to make sure a few things are in place b
 4. Post it notes and pens. 
 5. If desired and ok with the interviewee a recording device.
 
-Next I like to think about what I am going to ask in the interview. When writing out your questions it is easy to fall into our above biases. 
+Next we need to write our questions, an easy way to do this is to use a question starter that encourages story telling. Story telling is the preferred method for interview responses as stories tend to be more organic. Survey style questions tend to impart an answer shaped by bias.
+
+A great question starter is tell me about, this encourages dialog. Other good questions to ask can include:
+
+- If you had to change one things what would it be? Why?
+- Have you done x differently in the past?
+- What do you tell new co-workers when they start?
+
+Once you have a dialog going, clarifying questions can be used to shed light on the conversation and add priority. 
+
+- If you had x how frequently would you have used it in the past 6 months?
+- Just be be sure I am clear if you had x, what would it allow you to do that you cannot do now?
+- Tell me more about why you prefer the competitors feature over ours.
+- If a genie granted you 2 wishes about the current situation what 2 things would you fix?
 
 ### The shape of an interview
+
 
 ### Avoid yes no questions
 
