@@ -79,39 +79,48 @@ Once you have a dialog going, clarifying questions can be used to shed light on 
 
 ### The shape of an interview
 
+There is a common pattern to an interview you can follow to make things more natural, I even put this into a template to remind myself of the steps to take.
+
+The first step in the process is an introduction. In this portion of the interview we need to cover the following three items:
+
+1. Introduce yourself.
+2. State your purpose.
+3. Obtain consent to continue with the interview.
+
+Once we have done the introduction, I like to ask the interviewee something personal sort of like an ice breaker to ease any tension. Ask them about their day, comment on a unique article of clothing or any personal question that is friendly and easy to discuss. I try to avoid cliche question or topics like the weather as they have grown to lack any depth and don't let the person talk about themselves. If you let the person talk about themselves they will be much more at ease.
+
+On to the questions, at this point we ask the pre-planned questions. I usually have 3-4 these should be open ended, don't feel like you need to stay on script. Often the best interview veers in an unexpected direction naturally as you explore reasons and ideas that are unique to the interviewee and potentially introduce topics or ideas you had not considered.
+
+Once the conversation starts to dwindle I often will ask the users a straightforward question that prompts them to solve their own problem. Questions like how would you fix the situation or how have you dealt with this in another role often prompt the user to offer a solution. This may have value or not, but often is insightful in a different way.
+
+Finally we conclude our interview, at this point you can thank the participant and exchange pleasantries. Before the interviewee leaves I always like to ask permission to collaborate again in the future. This sets up the user for future interviews but also gives us a pool of domain experts to tap when it come time to test prototypes of validate ideas.
+
 
 ### Avoid yes no questions
 
-### Seeking stories
-
-### The followup
+It is always tempting to ask a question that the interviewee can answer yes or no to, however these are often the most bias answers and do not really offer any unique insight. If you are tempted to ask a yes/no question see if you can re-phrase the question in such a way that the answer ends up telling a story, explaining a process or exploring the reason a choice is made.
 
 
+## Capturing language, process and events
 
-## Who should I talk to?
+Often times we think we need to define the domain language, however the domain language is currently being spoken everyday. Our job is rather to extract, contextualize and define it in such a way that it is easy to reference and share.
 
-Deciding who are the proper domain experts to talk to is difficult, often we have a limited amount of time we can dedicate to this sort of research and we feel like there is no way we can fit it in. It's important to remember that one person is better then none, two better then one and usually twenty is about all that is consumable. 
-
-Picking the number of domain experts to talk to and which domain experts to talk to should start as a consideration of a combination of the stakeholder groups involved
-
-
-
-
-
-
-
-
-## Capturing language
+As we interview domain experts we have an opportune time to work on extracting their language and better understand it. When conducting an interview I recommend having the note taker write down any specific vocabulary that is discussed. Note any terms that are vague or overloaded and ask the interviewee to explain what they mean when they say x. Capture each of these terms so can later add them to our context boundaries and define them in the glossary.
 
 ## Job shadowing
 
-### Shadows are silent
+Job shadowing is a tool to reach for when we are working on a very well defined process that we are looking to augment or change. I have approached this in two distinct ways with success. The first is silent observation, the second is engaging directly with the task and discussing it with the domain expert.
 
-### How you actually work not how your supposed to work
+Silent observation of someone doing a task can show you how they do a task day to day in a pure way. In this scenario you want to limit your exposure to the participant as much as possible. Don't ask questions, don't get in there way, maybe even consider spying on them when they don't know you are watching. The purer the experience the less bias you impose on their performance.
+
+When engaging in the activity, you get a different outcome. I like to approach this as if someone was training me to start a new job. Go through the actions of learning how to do the task. Ask questions, why do we do this, where does this go, how did this come to be? You are trying to clearly understand an entire workflow and get to know intimately why the decisions where made that lead to the current process.
+
+In either of these approaches you need to take extensive notes on workflows, conversations that occur between stakeholders, the materials being passed around or used, tools available and flow of information between contexts.
 
 ### Look for the hacks
-
-### You should build traps
+One thing to pay particular attention to are the hacks around the workspace. Sticky notes of keyboard shortcut, codes or steps are a good hint that a process is hard or confusing. Taking documents into and out of multiple programs can show formatting errors. I have even seen upc hacking to fix problems with upc numbers between factories. These are often low hanging fruit with a large impact.
 
 ### Capturing processes
+There are a lot of ways to capture processes as you work through the job. Workflow process diagrams can show how different entities flow through the system and can capture language used to describe each step. We can also capture domain events that occur between each step of the workflow.
+
 
