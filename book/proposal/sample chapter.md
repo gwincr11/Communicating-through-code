@@ -136,6 +136,8 @@ Often times we think we need to define the domain language, however the domain l
 
 As we interview domain experts we have an opportune time to work on extracting their language and better understand it. When conducting an interview I recommend having the note taker write down any specific vocabulary that is discussed. Note any terms that are vague or overloaded and ask the interviewee to explain what they mean when they say x. Capture each of these terms so can later add them to our context boundaries and define them in the glossary.
 
+There are some patterns to look for when capturing domain languages. Try to pay attention to nouns, verbs, other stakeholders and processes. Often times nouns can relate to entities that are stored as some sort of document or can help us find context boundaries if they relate to other parts of the organization. Verbs often point to actions taking place, try to understand the context in which these actions happen and the verbs they occur upon. Stakeholders can show us new bounded contexts or help to re-inforce existing context boundaries. Finally process can show us places for further investigation. Another useful method for finding out about processes is event storming.
+
 ### Capturing processes
 There are a lot of ways to capture processes as you work through the job. Workflow process diagrams can show how different entities flow through the system and can capture language used to describe each step. We can also capture domain events that occur between each step of the workflow.
 
