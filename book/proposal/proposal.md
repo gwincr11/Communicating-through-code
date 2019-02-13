@@ -60,7 +60,7 @@ This book is suitable for developers, managers, product manager, project manager
 
 ## Why is your book different?
 
-This book will offer a design thinking tools set aimed at software development, with a minor focus on domain driven design. It will introduce software developers to all the phases of design thinking and teach them skills to help solve problems in more creative ways, skills emphasized include:
+This book will offer design thinking tools set aimed at software development, with a minor focus on domain driven design. It will introduce software developers to all the phases of design thinking and teach them skills to help solve problems in more creative ways, skills emphasized include:
 
 - Communicating effectively with stakeholders.
 - Identifying when to utilize design thinking methods and when not to.
