@@ -153,9 +153,9 @@ The time has come to conclude our interview, at this point you can thank the par
 
 It is time to interview our warranty domain expert, Nevin, we walk through our introductions and purpose statement, obtain consent one last time then jump into our questions.
 
-You: Can you tell me about the last warranty you processed?
+> You: Can you tell me about the last warranty you processed?
 
-Nevin: This xl Vision mountain bike has a broken frame, Harrie's bike shop contacted me via email to notify me about the issue. We sent out a new frame once we identified it was a manufacturing defect. I found the frame in a warehouse close to the shop and placed a shipping order with the distribution center. 
+> Nevin: This xl Vision mountain bike has a broken frame, Harrie's bike shop contacted me via email to notify me about the issue. We sent out a new frame once we identified it was a manufacturing defect. I found the frame in a warehouse close to the shop and placed a shipping order with the distribution center. 
 
 There is a lot to unpack in that brief overview. From a note takers perspective we can identify: 
 
@@ -189,11 +189,11 @@ These things could feed our ubiquitous language, expand our bounded contexts, ad
 
 From the interviewer perspective we can now take this interview in a lot of directions. Since we are looking to rebuild the warranty system from the ground up, the first thing we want to focus on is the warranty notification data.
 
-You: Can you tell me more about how you were notified of the issue and what information you needed to assess this incident?
+> You: Can you tell me more about how you were notified of the issue and what information you needed to assess this incident?
 
-Nevin: Sure, Harries emailed us about the issue. We require pictures of the bike, pictures of the broken part, the serial number, and a bit of info about how the break occurred. We have an email template we send them to fill in and ask any follow up questions over email. We also ask for a single point of contact with whom to work through the issue with on the shop end to simplify communications. Based on the type of break we assign a category to the issue.
+> Nevin: Sure, Harries emailed us about the issue. We require pictures of the bike, pictures of the broken part, the serial number, and a bit of info about how the break occurred. We have an email template we send them to fill in and ask any follow up questions over email. We also ask for a single point of contact with whom to work through the issue with on the shop end to simplify communications. Based on the type of break we assign a category to the issue.
 
-You: This is great would you mind emailing us that template? Can you forward us a few example customer interactions?
+> You: This is great would you mind emailing us that template? Can you forward us a few example customer interactions?
 
 Once again we have information that we can use to fill out our domain knowledge even more. It is great to try to collect any assets that may already exist to assist a process, often these organically grown processes built in a low fidelity way our early prototypes of what is really desired. We can also further develop our domain knowledge assets with this small question and answer cycle.
 
@@ -219,11 +219,11 @@ Once again we have information that we can use to fill out our domain knowledge 
       
  This process could go on to investigate shipping workflows, warehouse interactions, manufacturer needs etc...
  
- You: Thanks for all this information Nevin this is amazing. Would you mind if I reach out to you in the future for follow up information or to share ideas with you and get your feedback?
+> You: Thanks for all this information Nevin this is amazing. Would you mind if I reach out to you in the future for follow up information or to share ideas with you and get your feedback?
  
- Nevin: That would be great I am really excited to fix this.
+> Nevin: That would be great I am really excited to fix this.
  
- You: I am also wondering if you would let me shadow you for an hour or so while you work on some warranties to see what you workflow looks like?
+> You: I am also wondering if you would let me shadow you for an hour or so while you work on some warranties to see what you workflow looks like?
  
 ## Note taking
  
