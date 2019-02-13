@@ -2,7 +2,7 @@
 ### By: Cory Gwin
 
 ## Overview
-Technology is simply a tool for solving a problem. Arguably the most valuable tool any developer has in their tool chest is the ability to understand, communicate about, break down a problem and provide a proven solution. Most organization find this incredibly difficult to do and often organization focus on how fast they can ship instead of how well their solutions are received. Oddly, as terrible as we are at this part of our jobs, our problem solving tools get no where near the attention as our text editor skills, scripting language of choice or deployment skills and other tools in our development war chest. Instead we hand it off to other parts of the organization and later complain about them throwing requirements over the wall without asking if we should break down the wall.
+Technology is simply a tool for solving a problem. Arguably the most valuable tool any developer has in their tool chest is the ability to understand, communicate about, break down a problem and provide a proven solution. Most organization find this incredibly difficult to do and often organization focus on how fast they can ship instead of how well their solutions are received. Oddly, as terrible as we are at this part of our jobs, our problem-solving tools get nowhere near the attention as our text editor skills, the scripting language of choice or deployment skills and other tools in our development war chest. Instead, we hand it off to other parts of the organization and later complain about them throwing requirements over the wall without asking if we should break down the wall.
 
 It is time to break down these artificial boundaries and take responsibility for the solutions we build. The agile manifesto states we should prefer customer collaboration over contract negotiation. As developers we often leave the customer collaboration to others in our organization, leaving only short user stories or issues to gather context. This leads to a number of problems including:
 
@@ -13,7 +13,7 @@ It is time to break down these artificial boundaries and take responsibility for
 - Scope change or creep. 
 - Lost context over time.
 - Code that does not properly convey intent.
-- Unintended consequence of poorly modeled data.
+- Unintended consequences of poorly modeled data.
 - Incorrect prioritization.
 
 Our workflows and structures create communication barriers we must break down in order to move our implementations closer to their domains. As developers, our goals should include moving ourselves and our code closer to the domain. This requires understanding not only the problem being solved by a feature but also, more broadly an understanding of the field we are working in.
@@ -28,30 +28,30 @@ Design thinking offers a toolset for gathering insight into the domain that can 
 - Identifying focused solutions.
 - Providing insight into how an implementation may evolve.
 
-Following the path of a team replacing a legacy application with a new application this book will explore tools that can be utilized to break down a domain and better communicate with domain experts. The book will introduce a number of design thinking exercises and explain how they can be applied in different scenarios to help agile developers craft clearer implementations.
+Following the path of a team replacing a legacy application with a new application, this book will explore tools that can be utilized to break down a domain and better communicate with domain experts. The book will introduce a number of design thinking exercises and explain how they can be applied in different scenarios to help agile developers craft clearer implementations.
 
 ## What this book will cover:
 
 - Introduce the concept of design thinking.
 - Introduce the following design thinking methodologies from the perspective of the developer:
-	- Stakeholder mapping.
-	- Interviewing.
-	- Job shadowing.
-	- Rose Bud Thorn.
-	- Affinity Mapping.
-	- Experience diagramming.
-	- Importance/Difficulty matrix.
-	- Feature Voting.
-	- Creative matrixes.
-	- Technical prototyping.
-	- Story boarding UI's
-	- Stakeholder validation.
-	- More??
+    - Stakeholder mapping.
+    - Interviewing.
+    - Job Shadowing.
+    - Rose Bud Thorn.
+    - Affinity Mapping.
+    - Experience diagramming.
+    - Importance/Difficulty matrix.
+    - Feature Voting.
+    - Creative matrixes.
+    - Technical prototyping.
+    - Storyboarding UI's
+    - Stakeholder validation.
+    - More??
 - Introduce domain driven design concepts:
-	- Ubiquitous language.
-	- Context bounding.
-	- Domain events.
-- Outline effective tools for using design thinking to create ubiqoutous language, bounded contexts and domain events.
+    - Ubiquitous language.
+    - Context bounding.
+    - Domain events.
+- Outline effective tools for using design thinking to create ubiquitous language, bounded contexts and domain events.
 - Outline rules for effective design thinking on agile teams.
 - Discuss ideas for bringing these methods into teams that are not familiar with design thinking.
 
@@ -64,17 +64,17 @@ This book will offer a design thinking tools set aimed at software development, 
 
 - Communicating effectively with stakeholders.
 - Identifying when to utilize design thinking methods and when not to.
-- The discover, ideate, prototype phases of design thinking.
+- The discovery, ideate, prototype phases of design thinking.
 - Individual design thinking methodologies and when to use them in the software development lifecycle. 
 - How to run better retros.
 - How to evaluate what to build given competing priorities.
-- Understanding the business domain they work in day to day.
-- Building long lived communication tools that impact internal/external communication and code design.
+- Understanding the business domain they work in the day-to-day.
+- Building long-lived communication tools that impact internal/external communication and code design.
 
 
 ## Why we should get excited about your topic:
 
-In the Cathedral and the Bazaar a number of important ideas where set forth related to working closer with our stakeholder:
+In the Cathedral and the Bazaar a number of important ideas were set forth related to working more closely with our stakeholder:
 
 1. Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
 1. Release early. Release often. And listen to your customers.
@@ -84,7 +84,7 @@ In the Cathedral and the Bazaar a number of important ideas where set forth rela
 1. Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
 1. Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away. (Attributed to Antoine de Saint-Exupéry)
 1. To solve an interesting problem, start by finding a problem that is interesting to you.
-1. Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
+1. Provided the development coordinator has a communications medium at least as good as the Internet and knows how to lead without coercion, many heads are inevitably better than one.
 
 Interestingly it contradicts itself pointing out a major issue with the way we develop software:
 
