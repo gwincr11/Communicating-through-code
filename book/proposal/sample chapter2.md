@@ -18,21 +18,21 @@ At this point, you are probably thinking "What does that mean?" Glad you asked. 
 
 # Determining who to interview
 
-Different domain experts will work with our system in different ways and have different needs of the system. If we refer to our bounded contexts we can gain some insight into different entities that may need to access this system, we can also do a separate stakeholder mapping exercise just for this project, it may show new bounded contexts to account for. 
+Different domain experts will work with our system in different ways and each will have different needs of the system. If we refer to our bounded contexts, we can gain some insight into different entities that may need to access this system.  We can also do a separate stakeholder mapping exercise just for this project and it might uncover new bounded contexts we should take into account. 
 
-We want to ensure we interview a few people from each context to get some different perspectives, when possible these people should have very different backgrounds. For our warranty system we have identified the following domain experts to discuss this system with:
+We will want to ensure we interview a few people from each context to get different perspectives and wherever possible these people should also have very different backgrounds. For our warranty system we have identified the following domain experts to discuss this system:
 
-- The warranty dept.
-- Inventory and purchasing.
-- Internal sales reps.
-- Outside sale reps.
+- The Warranty Department.
+- Inventory and Purchasing.
+- Internal Sales reps.
+- Outside Sales reps.
 - Small bike shop mechanic.
 - Large outdoor sporting goods store shop manager.
-- Product management.
+- Product Management.
 
-This represents the core group of domain experts that touch the warranty system on a daily basis today. Each of them may have very different roles in the company and need very different things out of the system. This should give us a broad view of the domain space and how the different contexts view things.
+This represents our core group of domain experts that touch the warranty system on a daily basis today. Each of them may have varying functions in the company and very different things needs from the system. This will give us a broader view of the domain space and how the various contexts view different things.
 
-We have a pretty long list here, generally speaking, it may be hard to talk to so many stakeholders. However, talking to 2-3 is always better than talking to none. 
+This is a pretty long list here, generally speaking, and it may be difficult to talk to so many stakeholders. However, working with 2-3 is always better than talking to none. 
 
 # Getting permission from stakeholders
 
