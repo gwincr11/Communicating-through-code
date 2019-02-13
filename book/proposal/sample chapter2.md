@@ -1,10 +1,12 @@
 # Interviewing and Job Shadowing
 
-What better way to learn about a topic then spend time with an expert. In our stakeholder mapping exercise we began to identify different types of users we should communicate with to better understand their working context and challenges. Now we will explore some methods for engaging these domain experts to increase our awareness of their language, workflows, entities, and problems.
+What better way to learn about a topic then spend time with an expert? 
 
-In this chapter, we will introduce interviewing and job shadowing. We will use these methods to dig deep into the warranty workflow that exists today in order to understand the domain we are working within. We will be looking to gain as many key insights as we can to aid our implementation choices in the future. 
+In our stakeholder mapping exercise, we began to identify different types of users we should communicate with to gain a better understanding of their working context and challenges. We will now explore some methods for engaging these users, or domain experts, to increase our awareness of their language, workflows, entities, and problems.
 
-We will explore how to conduct better interviews, get stakeholder buy-in, common pitfalls that could bias your implementation and how to collect common language, domain events, identify entities and processes.
+In this chapter, we will introduce interviewing and job shadowingas methods of digging deeper into the warranty workflow that exists today to better understand the domain we are working within. We will be looking to gain as many key insights as we can to aid our implementation choices in the future. 
+
+We will explore how to conduct better interviews, get stakeholder buy-in, avoid common pitfalls that could bias your implementation and how to collect common language, domain events, and identify entities and processes.
 
 # Identifying an interviewing topic
 
