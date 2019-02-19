@@ -86,7 +86,7 @@ In the Cathedral and the Bazaar a number of important ideas were set forth relat
 1. To solve an interesting problem, start by finding a problem that is interesting to you.
 1. Provided the development coordinator has a communications medium at least as good as the Internet and knows how to lead without coercion, many heads are inevitably better than one.
 
-Interestingly it contradicts itself pointing out a major issue with the way we develop software:
+Interestingly the book contradicts itself pointing out a major issue with the way we develop software:
 
 > Every good work of software starts by scratching a developer's personal itch.
 
