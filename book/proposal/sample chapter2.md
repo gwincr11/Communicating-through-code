@@ -1,6 +1,6 @@
 # Interviewing and Job Shadowing
 
-What better way to learn about a topic then spend time with an expert. In our stakeholder mapping exercise we began to identify different types of users we should communicate with to better understand their working context and challenges. Now we will explore some methods for engaging these domain experts to increase our awareness of their language, workflows, entities and problems.
+What better way to learn about a topic then spend time with an expert. In our stakeholder mapping exercise we began to identify different types of users we should communicate with to better understand their working context and challenges. Now we will explore some methods for engaging these domain experts to increase our awareness of their language, workflows, entities and problems. Our goals are to reduce friction in future communications with stakeholders and code changes. We achieve this by better understand the language, processes and tools of the working environment, ultimately resulting in code that fluidly evolves with its environment by utilizing the common language of the environment, enhancing the ability of the tools already in place and seeking to co-exist in harmony with the processes important to the problem space.
 
 In this chapter we will introduce interviewing and job shadowing. We will use these methods to dig deep into the warranty workflow that exists today in order to understand the domain we are working within. We will be looking to gain as many key insights as we can to aid our implementation choices in the future. 
 
@@ -10,13 +10,23 @@ We will explore how to conduct better interviews, get stakeholder buy in, common
 
 Our warranty process has been flagged for replacement because it is built in a legacy system that we believe is leading to tracking issues and slowing down communications. We have been implementing a new customer support portal in sales and management wants to tie the two systems together for a variety of reasons. The top down pressure is revolving around tracking costs in warranty, but warranty is expressing concerns about customer interactions and fearing a changing process. 
 
-Our interview could go in a number of directions based on what we know. It would be easy to focus on what management wants out of the transition as hierarchies lead to this kind of approach. In our case we choose to seek the topic which is the most domain centric. What does that mean? Glad you asked, we want to get at the most common workflows, entities, processes in the central workflows. In our case what is the common lifecycle of a warranty. This will ensure our solution first focuses on the primary work that needs to be completed, primary domain. We want to avoid getting into the weeds of how are cost being tracked at this point, although it is a motivating force in the org, once we have a solid core domain modeled we can move to cost tracking as a separate subdomain and explore that problem independently. It maybe a driver for why we are making the switch, but the important thing to tackle first is the core domain.
+Our interview could go in a number of directions based on what we know. For example we could focus on:
+	- Tracking issue that management is prioritizing.
+	- The speed of communications for warranties.
+	- The sales/warranty overlap.
+	- The common warranty lifecycle.
+
+Often times hierarchies lead to this kind of approach. We are focusing solely on x problem. This sort of approach assumes that we are certain of the issue itself. It also assumes we are comfortable enough with the domain to not spend time exploring the warranty domain at all and instead focus on a single problem in the domain. In our scenario the original warranty system was implemented over 10 years ago, none of the knowledge accumulated during that implementation is relevant or available any more as the implementation tooling is changing and the work itself is ready to be re-examined because the new development team is in no way familiar with the tools, processes and language of the warranty dept or processes between departments.
+
+As is often the case we need to choose to seek the topic which is the most domain centric. We want to get at the most common workflows, entities, processes in the central workflows. The team needs to understand what is the common lifecycle of a warranty. This will ensure our solution first focuses on the primary work that needs to be completed, primary domain. We want to avoid getting into the weeds of how are cost being tracked at this point, although it is a motivating force in the org, once we have a solid core domain modeled we can move to cost tracking as a separate subdomain and explore that problem independently. It maybe a driver for why we are making the switch, but the important thing to tackle first is the core domain.
+
+Once we have a well defined knowledge of the environment, functioning ubiquitous language among different stakeholders and suitable basic implementation of the warranty system we can narrow down our areas of interviewing to more specific features, such as the tracking needs. Prior to defining these context boundaries and ubiquitous language you increase the risk of speaking different languages and increasing code friction by encoding these mis-understandings into you implementation.
 
 # Determining who to interview
 
 Different domain experts will work with our system in different ways and have differing needs of the system. If we refer to our bounded contexts we can gain some insight into different entities that may need to access this system, we can also do a separate stakeholder mapping exercise just for this project, it may show new bounded contexts to account for. 
 
-We want to ensure we interview a few people from each context to get some different perspectives, when possible these people should have very different backgrounds. For our warranty system we have identified the following domain experts to discuss this system with:
+We should interview a few people from each context to get some different perspectives, when possible these people should have very different backgrounds. For our warranty system we have identified the following domain experts to discuss this system with:
 
 - The warranty dept.
 - Inventory and purchasing.
@@ -26,25 +36,28 @@ We want to ensure we interview a few people from each context to get some differ
 - Large outdoor sporting goods store shop manager.
 - Product management.
 
+
 This represents the core group of domain experts that touch the warranty system on a daily basis today. Each of them have very different roles in the company and need very different things out of the system. This should give us a broad view of the domain space and how the different context view things.
 
-We have a pretty long list here, generally speaking it maybe hard to talk to this many stakeholders. Trying to talk to 2-3 is better then talking to none, 
+We have a pretty long list here, generally speaking it maybe hard to talk to this many stakeholders. Trying to talk to 2-3 is better then talking to none.
 
-# Getting permission from stakeholders
+Every interview cycle will have different interviewee needs. In our example we are seeking a broad audience as we are starting fresh. Once you have captured these perspectives for this broad sweeping project, future more focused projects can be limited to just the parts of the organization who's processes we are affecting. When limiting to less groups it is still a good idea to get some diversity in skillsets and application usage. I like to record interviews when possible so that I can reference them in the future should I need to.
 
-We need to reach out to each of our domain experts and get their permission to do the interviews. The way we speak to each group maybe different in tone based on who they are, our relationship with them, and their relationship to the project.
+# Getting buy in from stakeholders
 
-Warranty should hopefully be aware of the project, getting permission from the core domain experts who you are directly affecting their workflow should be easy. Some times you need to deal with push back about changing processes, but this is an opportunity to ease tensions and express you ambitions to improve their day to day work. Try building enthusiasm in the project by showing a willingness to work together and project often go from dreaded to exciting as the domain experts see the ability to change their day to day workflows in a positive way.
+We need to reach out to each of our domain experts and get their permission to do the interviews. The way we speak to each group will be different in tone based on who they are, our relationship with them, and their relationship to the project.
 
-Outside collaborators such as bike shops are often trickier, in this case I will often leverage the relationship a sales rep has with a shop or find a shop warranty particularly enjoys. Often times your domain experts can grease the wheels and even get outside collaborators excited about contributing back toward improving systems they dislike.
+Warranty should be aware of the project, getting permission from the core domain experts who's workflow you are affecting should be easy. When you need to deal with push back about changing processes use this as an opportunity to ease tensions and express your ambitions to improve their day to day work. You can build enthusiasm in a project by showing a willingness to work together. Doing so projects often go from dreaded to exciting as the domain experts start to feel empowered to change their day to day workflows in a positive way.
 
-Internal collaborators like sales may often state they don't have time to do an interview. These interviews can sometimes be the trickiest in some ways, however I have had success with drop in conversation or offering to take some one out to lunch.
+Outside collaborators such as bike shops are often tricky, in this case try leveraging an internal relationship, in our case a sales rep has a relationship with a shop, or find a shop warranty particularly enjoys working with. Your domain experts can grease the wheels and even get outside collaborators excited about contributing back toward improving systems they dislike.
+
+Internal collaborators like sales may often state they don't have time to do an interview. In this scenario I have had success with drop in conversation or offering to take some one out to lunch, beers may also help.
 
 # Writing questions
 
-Now it is time to write interview questions. Interviewing people is a bit like hanging out at the bar with a friend asking them about their last great adventure. We want to go into it curious and with a beginners mindset. It is tempting to approach interview questions in a similar way to writing survey questions, by this I mean questions with yes/no multiple choice answers, try to avoid this. 
+Now it is time to write interview questions. Interviewing people is a bit like hanging out at the bar with a friend asking them about their last great adventure. We want to go into it curious and with a beginners mindset. It is tempting to approach interview questions in a similar way to writing survey questions, by this I mean questions with yes/no, multiple choice answers, try to avoid this. 
 
-We will be using some question starters to help us create good interviewing starters, thinking about interview questions as conversation starters is a good approach. Our starters are:
+We will be using some question starters to help create good interviewing starters. I think about interview questions as conversation starters. Our question starters are:
 
 - Tell me about the last time you did x.
 - Have you done x differently in the past? Maybe at a different company.
@@ -58,20 +71,26 @@ Filling in our topic `common warranty lifecycle` we end up with the following qu
 - What do you tell new warranty employees on their first day about the process?
 - What is the process for a typical warranty?
 
-These question will spark conversation and have plenty of room to breath. The goal is to remove yourself from the conversation as much as possible and let the domain expert explain their process. It is common to interject bias into questions and we want to avoid that as much as possible.
+With these questions we are seeking real world stories. Ideally the interviewee will walk you through an experience they recall from recent work. In our warranty example, we want the warranty dept to tell us about a warranty claim starting at the place where they learn about a new claim, how they interact with the person who submitted the claim, how they decide what action to take and how they take said action. There is a lot to dig into with a story that tells the lifecycle of a whole process such as this.
 
-It is important to mostly let the interviewee talk, we want to be an active listener. From time to time something will come up in the interview that you think it would be nice to expand upon. Having some potential lines in your questions to help you frame a question in a way the qualifies the statement or expands upon it is helpful.
+These question will spark a story and have plenty of room to breath. The goal is to remove yourself from the conversation as much as possible and let the domain expert explain their process start to finish. It is common to interject bias into questions and we want to avoid that as much as possible.
+
+Your number one priority is to listen, not to talk. From time to time something will come up in the interview that you think it would be nice to expand upon. Having some potential questions to help you expand a statement in a way that qualifies the statement or expands upon will improve the quality of your interviews.
 
 - If you had x how frequently would you have used it in the past 6 months?
 - Just be be sure I am clear if you had x, what would it allow you to do that you cannot do now?
 - Tell me more about why you prefer the competitors feature over ours.
 - If you had to choose between x and y which would you choose?
 
+Each of these questions is designed to dig into the specifics of a task. The 5 why's is another good practice, if you ask why 5 times you will generally get to the end of someone's knowledge on a topic. We want to get as deep into their processes so we can understand what they are doing, why and how they talk about it. During this we are extracting as much language, process, domain entities, events, collaborators and tools as possible.
+
 At some point in the interview the conversation will wind down. I like to offer the domain expert the ability to solution at this point. Often they have stewed over a potential solution or better workflow but don't posses the skills required to implement it. Have some questions ready for this time:
 
 - How would you solve x?
 - If you could change one thing today what would it be?
 - If you had a magic wand what would you change?
+
+Often times this will not lead to a implementable solution, however it may spark an idea down the road of how you could approach the problem. It could also hand you the solution you need, don't dismiss any ideas at this point.
 
 I will add all these questions to a question outline so they are ready for interview day.
 
@@ -166,10 +185,12 @@ There is a lot to unpack in that brief overview. From a note takers perspective 
 	  - Warranty issue assessed.
 	  - Warranty issue resolution proposed
 	  - Warranty issue resolution in progress
-	  - Warranty issue resolved.
+	  - Warranty resolution offered
+	  - Warranty resolution accepted
 	  - Replacement product shipment received at warehouse
 	  - Replacement product shipped
 	  - Replacement product delivered
+	  - Warranty issue resolved.
 - A number of potential bounded contexts:
   - Bike shop.
   - Manufacturer.
@@ -186,6 +207,16 @@ There is a lot to unpack in that brief overview. From a note takers perspective 
   - Warranty notification:
 
 These things could feed our ubiquitous language, expand our bounded contexts, add to our domain events and ultimately inform our implementation. 
+
+### Sidbar: Fidelity in note taking
+Depending on how well liked or defined your process is you may want to more fully capture the process. I tend to capture language in a higher fidelity if processes are well defined, liked or efficient. Lower fidelity is better when things are not as well defined, are inefficient or lack in some areas. As Henry Ford once said, if I asked the customer what they wanted they would say a faster horse. Allowing your team room to innovate is a matter often a matter of fidelity, at the point of capture you start to make value decisions of how much you want to replace, be aware of this during your note taking you are already making value judgments. 
+
+In our example we know our system is gravely inefficient, so we want to capture notes that allow for room to improve. If we conducted the same interview in a well loved efficient process, or rigid environment driven by compliance our output should be higher fidelity for the process section. 
+
+> Warranties are received via email then assigned to a warranty manager. The assigned manager then notifies the shop that they are starting work. Next follow up questions are sent to the shop. Once follow up questions are answered, the warranty manager asses the issue and offer a resolution. Given the resolution is accepted any needed parts are then shipped to the shop. Upon receiving the parts the warranty is marked as resolved.
+
+This higher fidelity process outline captures more information about the process. If you are following BDD this could be dropped in as a spec. User stories such as this have their place, we can see the ubiquitous language, identify context boundaries and capture this directly in our code base. However, this level of fidelity offers a solution, which at times can prevent brainstorming pathways we will explore in future chapters. Feel free to use both approaches depending on your requirements.
+### End side bar
 
 From the interviewer perspective we can now take this interview in a lot of directions. Since we are looking to rebuild the warranty system from the ground up, the first thing we want to focus on is the warranty notification data.
 
@@ -244,11 +275,6 @@ Are preferred to:
 This is the start of a db model, you will get there eventually but it is far to early in the process to know if what you are doing enforces the domain properly.
 
 
-## Developing your ubiquitous language
-At this point we should think of things as developing an encyclopedia of institutional knowledge. In fact I would recommend taking on this task at this point. Every interview you undertake should be approached as an opportunity to collect and share very useful domain knowledge that may currently exist in a silo.
- 
-If you can build a wiki or some other communication tool that can state what all the domain language is in different parts of you institution then you have a communication standard you can reference for new hires, naming things in the future and understanding what user means in the context of sales.
-
 # Job Shadowing
 
 Nevin has invited us back to do some job shadowing. In this process we are looking to gain on the ground experience to see all the parts of the process that are often not discussed in an interview because they are so ingrained in day to day activity they seem obvious to the domain expert. 
@@ -293,3 +319,107 @@ All these interactions likely point to some piece of tooling you will need to be
 This is not one of my top 3 areas for focus, but hacks are really valuable for finding confusing or troublesome parts of a system. If a domain expert has take the time to implement a hack to get around a situation it is likely that they understand something the implementors did not and got frustrated to a point that they fixed it themselves.
 
 Hacks can take many forms, post it notes with directions, macros in excel, browser plugins, copy and past patterns and more. Any thing where the user created a one off custom solution to a problem is worth exploring.
+
+## Observing our warranty process
+
+You: Good morning Nevin, I brought coffee and bagels. How is your day going? 
+
+Nevin: Great now that I have bagels.
+
+You: Everyone loves a bagel, I am going to hang out back here and just observe your warranty routines. Mind if I look around at your space while you get your day started?
+
+Nevin: No problem, if you have any questions just let me know.
+
+You: Thanks
+
+You walk around and note a few computers, a barcode scanner with internet browsing capabilities, label printers and some notes with email addresses for different warehouses holding our products.
+
+Nevin: Hey Jim, I got a new warranty issue want to grab it?
+
+Jim: On it.
+
+You go over and watch Jim follow up on the warranty issue. He double checks that all the needed information is there in the issue, which it is. You take notes of all the items he is looking for in the email, it looks like there is an email template that they use to have shops submit warranties with, you take a note to get this template from them later.
+
+Jim: This looks pretty straight forward, we have seen a lot of these bikes break at this junction. Nevin do we still have any x-large, huff and puff frames left in the west coast wharehouse? 
+
+Nevin: No it will have to come from the east coast. Should take about a week to get to them.
+
+Jim: Ok I will let the shop know and ship it out once they have given the go ahead.
+
+You capture notes about the location of the bike inventory driving delivery needs and dates. Also the process of notifying the shop. You also request that all the emails exchanged be forwarded to you for reference. 
+
+From this exercise we have gained knowledge around a number of areas that didn't expose themselves during the interview. The warehouse inventory came up as did the tools that they use day to day. You could follow up and ask to see how any of these tools are used to try to drive insights into where you could further inject software into their process.
+
+## Developing your ubiquitous language
+At this point we should think of things as developing an encyclopedia of institutional knowledge. In fact I would recommend taking on this task at this point. Every interview you undertake should be approached as an opportunity to collect and share very useful domain knowledge that may currently exist in a silo.
+ 
+Every group is different in how they like to communicate. Self describing software, document everything, automatically generated docs there are a lot of preferences in how we communicate amongst our teams. The method of communication is less important then the ability to capture the knowledge you have gained, so I am not going to weigh in on this religious war. If you can build a wiki or some other communication tool that can state what all the domain language is in different parts of your bounded context then you have a communication standard you can reference for new hires, naming things in the future and understanding what user means in the context of sales.
+
+Taking our notes from our interview section we can extract our domain entities, domain events, process and new bounded contexts. We are not at a point were we are writing code yet but we can start to organize our domain further on a domain context map, grouping our entities, events and processes in their proper contexts. 
+
+![](https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/graphics/04fig01.jpg)
+
+Lets augment our previous context map from our stakeholder mapping exercise. Since we have spoken with warranty we identified some outside stakeholder we had not considered prior. The warehouse which houses our replacement parts is a group we will need to work with, the implementation for this group is an unknown at this time, could be an api could be an email workflow, which is what exists today. This is not part of our core domain and thus belongs in its own context. Similarly is the shipping agent, this will live outside our core domain as well. It is likely some other part of the organization, sales, also needs an shipping integration so it will serve us well to look at this as it's own sub-domain.
+
+We can also fill in some information about the bike entities in our core domain and warranty processes inside our warranty sub-domain, warranty could potentially be the core domain from the teams perspective but is not from the business' perspective. Inside the core domain we can add the new bike and bike shop information we have collected:
+
+- Core Domain entities
+  - Bike, 
+      - size: xl 
+      - category: Mountain Bike
+      - Product name: Vision
+      - Serial number
+  - Bike Shop:
+      - Name: Harrie's
+      - Shipping address?
+      - Email address
+      - Employees
+
+We can begin to fill in some process information in the warranty subdomain:
+
+- A high level process: notification of issue -> assessment -> decision of action to take -> shipping arrangement
+	- Domain events in this process
+	  - Warranty issue received.
+	  - Warranty issue acknowledged by employee.
+	  - Warranty issue assessed.
+	  - Warranty issue resolution proposed
+	  - Warranty issue resolution in progress
+	  - Warranty resolution offered
+	  - Warranty resolution accepted
+	  - Replacement product shipment received at warehouse
+	  - Replacement product shipped
+	  - Replacement product delivered
+	  - Warranty issue resolved.
+ 
+ We also have a warranty subdomain entities:
+ 
+ - Warranty Notifications
+ - Warranty Issue
+      - Image of the bike
+      - serial number
+      - Image of the break
+      - How the break occurred
+      - Point of contact for warranty submitter
+      - Break type category
+ - Warranty Assigned Manager
+ - Warranty Assigned shop 
+ - Warranty Discussion
+
+Along with this we have identified two more potential subdomains, shipping and warehousing/inventory. These could be built out in a similar fashion to what we have done with warranty.
+
+This represents the core language, process and ideas in the warranty department as it exists today. I will also often add a list of tools available at this point so I have it for future brainstorming sessions. This may not be a part of what Domain Driven Design offers, but I prefer to look holistically at an environment as the problem space in order to better serve the problem.
+
+- Handheld UPC Scanners, running android
+- Cellphones
+- Laptops with internet connection
+- External Warehouse
+
+There are clearly interconnections between our sub-domains we will explore mapping those out further in a future section.
+
+# Conclusion
+
+We have now collected a strong representation of the domain from the warranty managers perspective. Collecting ideas about how they communicate, work and their environment. This information allows us to think about the warranty environment in a much more informed way then we did prior to the exercise and gives us communication tools that can ease communication friction with stakeholders and also in the code itself. 
+
+We also have a much better long term view of how the code itself may grow and change since we understand the working condition of the warranty lifecycle. This will help us make informed decisions as we build our solution that will keep us from setting up traps based on lack of foresight.
+
+Finally we improved our relationships with key internal stakeholders. This social capital can help us champion our project and improves collaboration which can only improve our project. We have developed a toolset which helps us collaborate in an effective way instead of just complaining about things that are broken.
