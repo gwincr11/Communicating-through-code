@@ -423,3 +423,5 @@ We have now collected a strong representation of the domain from the warranty ma
 We also have a much better long term view of how the code itself may grow and change since we understand the working condition of the warranty lifecycle. This will help us make informed decisions as we build our solution that will keep us from setting up traps based on lack of foresight.
 
 Finally we improved our relationships with key internal stakeholders. This social capital can help us champion our project and improves collaboration which can only improve our project. We have developed a toolset which helps us collaborate in an effective way instead of just complaining about things that are broken.
+
+In the next chapter we will take these things we learned in this chapter and use some design thinkings methods to reflect on the knowledge we have gained.
