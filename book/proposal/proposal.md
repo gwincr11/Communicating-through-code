@@ -108,10 +108,9 @@ Domain Driven Design:
 - Building long-lived communication tools that impact internal/external communication and code design.
 
 ## Competing Books
-- [Domain Driven Design Distilled](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420/ref=sr_1_fkmrnull_1?crid=33UZDG9LM3BY0&keywords=domain+driven+design+distilled&qid=1550802381&s=gateway&sprefix=Domain+Driven+Design+D%2Caps%2C303&sr=8-1-fkmrnull)
-- [Design It! From Programmer to Software Architect](https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/ref=sr_1_1?keywords=Design+It%21&qid=1550802621&s=books&sr=1-1)
-- [Lean Customer Development](https://www.amazon.com/Lean-Customer-Development-Hardcover-version/dp/1449356354/ref=sr_1_1?keywords=lean+cindy+a&qid=1550802543&s=gateway&sr=8-1)
-
+- [Domain Driven Design Distilled](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420/ref=sr_1_fkmrnull_1?crid=33UZDG9LM3BY0&keywords=domain+driven+design+distilled&qid=1550802381&s=gateway&sprefix=Domain+Driven+Design+D%2Caps%2C303&sr=8-1-fkmrnull): Unlike a traditional domain driven design, domain centric software will focus more on the customer interaction process and how to effectively run these processes. I will largely avoid implementation details and offer more design thinking techniques. I also think domain driven design is limited in that it often leads to automating inefficient processes, thus making fast inefficient process due to it often skipping the ideate and prototype steps that I will be covering.
+- [Design It! From Programmer to Software Architect](https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers/dp/1680502093/ref=sr_1_1?keywords=Design+It%21&qid=1550802621&s=books&sr=1-1) This books is a great companion book to mine and I hope to work with Michael to run workshops together. I will be covering more of the design thinking processes in depth then this book as it focuses more on Architectural patterns and choosing implementation by using design thinking to evaluate risk. In an implementation point of view I will be focusing less on architecture and more on capturing the language of the domain in your implementation and also on crafting solutions that meet the problems head on by exploring and becoming familiar with the problem the domain expert is working on.
+- [Lean Customer Development](https://www.amazon.com/Lean-Customer-Development-Hardcover-version/dp/1449356354/ref=sr_1_1?keywords=lean+cindy+a&qid=1550802543&s=gateway&sr=8-1) This book covers a number of similar methodologies but it is slanted more towards product development as opposed to gathering information for implementation. I am less interested in finding and validating a market and more interested in creating software that feels like it belongs to the domain.
 
 ## Why we should get excited about your topic:
 
@@ -137,4 +136,25 @@ Domain Centric Software makes a case that in order to solve problems we need to 
 
 I intend to present a set of tools to help developers take action on this premise, equipping developers to discuss complex problems with their domain experts in new and collaborative ways.
 
- 
+## Author Bio:
+Growing up I enamored by the house my grandparents lived in, designed by a associate of Frank Lloyd Wright I could sense the oneness it had with the immediate environment. This experience has left me continually frustrated with our inability to create software that encompass the environment of the software in a fluid way. 
+
+In my career I have worked in UI, project management and as a backend developer trying to move myself closer to a place where I can see the thread connecting the problem space back to the solution implemented in our code and how we get there. 
+
+Working at GitHub and watching/participating in the open source movement has made me realize there is a promising pattern available when we collect opinions at a massive scale and understand the domain well, but we do not posses tools and techniques to work on domains other then the domain of the programmer in such a fashion.
+
+I began trying out design thinking on a job where I was given total control, the results were better then other projects I had worked on and I think it is an incremental improvement. I have found success marrying the ideas found in Domain Driven Design, Design thinking and Agile. I think this combination is unique and beneficial to all significant development efforts.
+
+## Marketing Ideas
+- I live in Pittsburgh near Michael Keeling and we have been discussing teaming up for workshops.
+- I like to speak at conferences and run workshops.
+- I do some twittering but it is minimal.
+- I would be open to podcasting.
+
+
+## Page count:
+- 250-300 pages?
+
+## Timeline
+Realistically my first draft will take a year, I am expecting a baby in late May so I think that will slow me down a good bit.
+

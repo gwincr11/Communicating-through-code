@@ -1,4 +1,4 @@
-# Outline for Design Thinking for Developers
+# Outline for Domain Centric Software
 
 ## Chapter 1: Introduction
 
